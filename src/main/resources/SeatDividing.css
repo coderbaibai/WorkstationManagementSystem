@@ -9,18 +9,19 @@
     left: 239px;
     height: 780px;
     width: 898px;
-    background-color: blue;
 }
 #status{
     display: inline-block;
-    background-color: white;
+    /* background-color: white; */
 }
 .seatStatus{
-    background-color: yellow;
+    background-color: white;
     display: inline-block;
+    position: relative;
     height: 94px;
     width: 210px;
     margin-right: 14px;
+    border-radius: 4px;
 }
 .seatStatus:last-child{
     margin-right: 0;
@@ -29,14 +30,195 @@
     display: inline-block;
     width: 100%;
     height: 674px;
-    background-color: pink;
+    background-color: white;
+    border-radius: 4px;
+}
+.StatusLeft{
+    position:absolute;
+    top: 16px;
+    left: 22px;
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+}
+#usingLeft{
+    background-color: rgb(204, 204, 204);
+}
+#bookingLeft{
+    background-color: rgb(0, 170, 239);
+}
+#freeLeft{
+    background-color: rgb(51, 204, 0);
+}
+#exceptionLeft{
+    background-color: rgb(255, 0, 0);
+}
+.StatusImg{
+    margin: 15%;
+    height: 70%;
+    width: 70%;
+}
+.StatusInfo{
+    position: absolute;
+    top: 19px;
+    left: 79px;
+    font-family: PingFang HK;
+    font-size: 16px;
+    color: rgb(152, 152, 152);
+    padding-left: 24px
+}
+.numberInfo{
+    position: absolute;
+    top: 36px;
+    left: 74px;
+    font-family: Helvetica Neue;
+    font-size: 36px;
+    color: rgb(102, 102, 102);
+    padding-left: 24px
 }
 #edit{
     position: absolute;
     display: inline-block;
-    height: 780px;
+    height: 774px;
     width: 328px;
     top: 80px;
     left: 1147px;
-    background-color: red;
+    border-radius: 4px;
+}
+#editHead{
+    box-sizing:border-box;
+    position: absolute;
+    top: 0;
+    height: 177px;
+    width: 100%;
+    background-color: white;
+}
+#headName{
+    box-sizing:border-box;
+    position: absolute;
+    top: 0;
+    height: 32px;
+    width: 100%;
+    font-family: microsoft yahei;
+    line-height: 29px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+    background-color: rgb(249, 249, 249);
+    padding: 2px 16px 2px 24px;
+}
+.serchInfo{
+    position: absolute;
+    left: 16px;
+    height: 29px;
+    width: 297px;
+}
+#editHead>div:nth-child(2){
+    top:46px;
+}
+#editHead>div:nth-child(3){
+    top:86px;
+}
+#editHead>div:nth-child(4){
+    top:126px;
+}
+.serchInfo>p{
+    position:absolute;
+    top:0;
+    left: 0;
+    font-family: microsoft yahei;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(102, 102, 102);
+}
+.serchInfo>select{
+    position:absolute;
+    left: 122px;
+    right: 0;
+    height: 100%;
+}
+#blackLine{
+    position: absolute;
+    top: 177px;
+    z-index: 10;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(121, 121, 121);
+}
+#editItems{
+    position: absolute;
+    top: 179px;
+    bottom: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 4px;
+}
+#editItems::-webkit-scrollbar{
+    display: none;
+}
+.editItem{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 158px;
+    background-color: white;
+}
+.editItem>img:first-of-type{
+    position:absolute;
+    top: 12px;
+    left: 26px;
+    height: 30px;
+    width: 30px;
+    border-radius: 12.5px;
+}
+.editItem>img:last-of-type{
+    position:absolute;
+    top: 12px;
+    left: 286px;
+    height: 25px;
+    width: 25px;
+}
+.editItem>h1{
+    position: absolute;
+    top: 12px;
+    left: 63px;
+    width: 38px;
+    height: 26px;
+    font-family: microsoft yahei;
+    color: rgb(101, 101, 101);
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 700;
+}
+.editItem>p{
+    position: absolute;
+    box-sizing: border-box;
+    top: 44px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 40px;
+    font-family: microsoft yahei;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    line-height: 1.5;
+}
+.editItem:hover{
+    z-index: 15;
+    outline:1px solid deepskyblue;
+}
+#editSave{
+    position: absolute;
+    z-index: 20;
+    bottom: 0;
+    height: 47px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(14,124,204);
+    font-family: microsoft yahei;
+    line-height: 44px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
 }

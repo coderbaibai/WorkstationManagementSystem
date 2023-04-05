@@ -17,6 +17,7 @@ English | [简体中文](.github/README_cn.md)
 <!-- names of dependencies and websites if had -->
 - [JDK: 1.8+](https://www.oracle.com/java/technologies/downloads)
 - [mySQL: 8.0+](https://www.mysql.com)
+- [IDEA: 2022+](https://www.jetbrains.com/idea)
 - [operating system: linux/windows10]()
 </details>
 

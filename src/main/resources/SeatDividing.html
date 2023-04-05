@@ -27,17 +27,77 @@
     </div>
     <div id="mainWindow">
         <div id="status">
-            <div class="seatStatus"></div>
-            <div class="seatStatus"></div>
-            <div class="seatStatus"></div>
-            <div class="seatStatus"></div>
+            <div class="seatStatus" id="using"><div class="StatusLeft" id = "usingLeft"><img class="StatusImg" src="imgs/use.png"></div><p class="StatusInfo">使用中</p><p class="numberInfo">124</p></div>
+            <div class="seatStatus" id="booking"><div class="StatusLeft" id = "bookingLeft"><img class="StatusImg" src="imgs/book.png"></div><p class="StatusInfo">已预约</p><p class="numberInfo">15</p></div>
+            <div class="seatStatus" id="free"><div class="StatusLeft" id = "freeLeft"><img class="StatusImg" src="imgs/free.png"></div><p class="StatusInfo">空闲</p><p><p class="numberInfo">36</p></div>
+            <div class="seatStatus" id="exception"><div class="StatusLeft" id = "exceptionLeft"><img class="StatusImg" src="imgs/exception.png"></div><p class="StatusInfo">异常</p><p class="numberInfo">1</p></div>
         </div>
         <div id="seats">
-
+            <img src="imgs/current.png">
         </div>
     </div>
     <div id="edit">
-
+        <div id="editHead">
+            <div id="headName">工位编辑列表</div>
+            <div class="serchInfo"><p>合同名称:</p><select id="dept"><option selected value="null">-请选择</option></select></div>
+            <div class="serchInfo"><p>需求部门:</p><select id="contract"><option selected value="null">-请选择</option></select></div>
+            <div class="serchInfo"><p>项目经理:</p><select id="manager"><option selected value="null">-请选择</option></select></div>
+        </div>
+        <div id="blackLine"></div>
+        <div id="editItems">
+            <div class="editItem">
+                <img src="imgs/round_people.png">
+                <h1>张三</h1>
+                <img src="imgs/edit.png">
+                <p>
+                    人员编号：2367181912<br>
+                    工位编号：A401<br>
+                    职位：高级开发工程师<br>
+                    工位使用开始时间：2023-3-01<br>
+                    工位使用结束时间：2023-3-01<br>
+                </p>
+            </div>
+            <div class="editItem">
+                <img src="imgs/round_people.png">
+                <h1>王凯</h1>
+                <img src="imgs/edit.png">
+                <p>
+                    人员编号：2367181912<br>
+                    工位编号：A401<br>
+                    职位：高级开发工程师<br>
+                    工位使用开始时间：2023-3-01<br>
+                    工位使用结束时间：2023-3-01<br>
+                </p>
+            </div>
+            <div class="editItem">
+                <img src="imgs/round_people.png">
+                <h1>孙颖</h1>
+                <img src="imgs/edit.png">
+                <p>
+                    人员编号：2367181912<br>
+                    工位编号：A401<br>
+                    职位：高级开发工程师<br>
+                    工位使用开始时间：2023-3-01<br>
+                    工位使用结束时间：2023-3-01<br>
+                </p>
+            </div>
+            <div class="editItem">
+                <img src="imgs/round_people.png">
+                <h1>王建</h1>
+                <img src="imgs/edit.png">
+                <p>
+                    人员编号：2367181912<br>
+                    工位编号：A401<br>
+                    职位：高级开发工程师<br>
+                    工位使用开始时间：2023-3-01<br>
+                    工位使用结束时间：2023-3-01<br>
+                </p>
+            </div>
+            <div class="editItem">
+                
+            </div>
+        </div>
+        <div id="editSave">保存</div>
     </div>
 </body>
 </html>
