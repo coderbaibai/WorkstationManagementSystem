@@ -1,7 +1,3 @@
-# 
-
-
-正在测试阶段
 # <div align="center">智能工位管理系统</div>
 <div align="center">
     <img src="imgs/workStation.jpg" width="850">
@@ -9,16 +5,14 @@
         智能工位管理系统的设计与实现
     </p>
     <p>
-        testing
+        测试中
     </p>
 
 [English](../README.md) | 简体中文
 </div>
-To test the project, you are supposed to build a mysql database in your PC.
 <details open>
 <summary>依赖</summary>
 
-<!-- names of dependencies and websites if had -->
 - [JDK: 1.8+](https://www.oracle.com/java/technologies/downloads)
 - [mySQL: 8.0+](https://www.mysql.com)
 - [operating system: linux/windows10]()

@@ -10,11 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca77e7c8-cbf1-4a17-abcf-a0abc468e2b2" name="变更" comment="debug">
-      <change afterPath="$PROJECT_DIR$/.github/README_cn.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/imgs/workStation.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/druid/SeatManagement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/druid/SeatManagement.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/README_cn.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/README_cn.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680665731265</updated>
       <workItem from="1680665732429" duration="15862000" />
-      <workItem from="1680698720493" duration="720000" />
+      <workItem from="1680698720493" duration="948000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1680688890367</created>
@@ -245,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680688890367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="debug">
+      <created>1680699490289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680699490289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
