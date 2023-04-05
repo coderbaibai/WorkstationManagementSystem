@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LoginServe" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca77e7c8-cbf1-4a17-abcf-a0abc468e2b2" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/dao/impl/MysqlDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/domain/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/service/LoginVerify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/service/impl/LoginVerifyNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/EnrollServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SeatDividing.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SeatDividing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/enroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/enroll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/enroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/imgs/command_fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/imgs/loadimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/imgs/people_fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/imgs/sleepCat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/imgs/哈工大.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/imgs/问号.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/load.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/load.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/dao/impl/MysqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/druid/SeatManagement.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/dao/impl/MysqlDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/service/impl/LoginVerifyNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wms/service/impl/LoginVerifyNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/load.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/load.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +32,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,10 +74,15 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
+    "project.structure.last.edited": "工件",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -99,28 +96,137 @@
       <recent name="com.wms.dao.impl" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 10.1.7">
+    <configuration name="MysqlDao.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkstationManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wms.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.wms.dao.impl.MysqlDao" />
+      <option name="METHOD_NAME" value="getConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MysqlDao.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WorkstationManagementSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wms.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.wms.dao.impl.MysqlDao" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.7" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="WorkstationManagementSystem:war exploded">
+        <artifact name="LoginServe">
           <settings>
-            <option name="CONTEXT_PATH" value="/WorkstationManagementSystem_war_exploded" />
+            <option name="CONTEXT_PATH" value="/LoginServe" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7cf5c0a7-31bc-481a-94a7-df9b77f1f465" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34209" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="WorkstationManagementSystem:war exploded" />
+          <artifact name="LoginServe" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MysqlDao.getConnection" />
+      <item itemvalue="JUnit.MysqlDao.test" />
+      <item itemvalue="Tomcat 服务器.Tomcat 10.1.7" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MysqlDao.test" />
+        <item itemvalue="JUnit.MysqlDao.getConnection" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680665731265</updated>
-      <workItem from="1680665732429" duration="2140000" />
+      <workItem from="1680665732429" duration="9422000" />
     </task>
     <servers />
   </component>

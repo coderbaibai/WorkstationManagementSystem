@@ -1,6 +1,7 @@
 package com.wms.web.impl;
 
-import database.mysql.*;
+import com.wms.service.LoginVerify;
+import com.wms.service.impl.LoginVerifyNormal;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -29,13 +30,11 @@ public class LoginServlet extends HttpServlet {
         String pwd = request.getParameter("password");
         System.out.println(usr+" "+pwd);
         if(usr==null||pwd==null){
-            response.sendRedirect("http://localhost:63342/webTest/src/main/staticSources/load.html");
+            response.sendRedirect("http://localhost:63342/WorkstationManagementSystem/src/main/resources/load.html");
             return;
         }
-//        ApplicationContext context = new ClassPathXmlApplicationContext("beam1.xml");
-//        Account account = context.getBean("account",Account.class);
-        Account account = new Account(usr,pwd);
-        if(account.verify()){
+        LoginVerify verification = new LoginVerifyNormal();
+        if(verification.verify(usr,pwd)){
             out.println("<html><body>");
             out.println("<h1>" + welcome + "</h1>");
             out.println("</body></html>");
