@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="enroll.css" rel="stylesheet" type="text/css">
+    <script src="enroll.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="enroll">
+    <form action="http://localhost:8081/loginServe/LoginServlet" method="post" onsubmit="return trySubmit()">
+        <span class="inputTitle">用户名：</span><input class="text" id="user" type="text" name="username" autocomplete="off" placeholder="请输入用户名" onblur=testUser()>
+        <p class="prompt" id="userPrompt">用户格式错误：1~10位由字母、数字组成</p>
+        <span class="inputTitle">密码：</span><input class="text" id="pwd" type="password" name="password" autocomplete="off" placeholder="请输入密码" onblur=testPwd()>
+        <p class="prompt" id="pwdPrompt">密码格式错误：1~20位由字母、数字组成</p>
+        <span class="inputTitle">重复密码：</span><input class="text" id="retry" type="password" name="retry" autocomplete="off" placeholder="请再次输入密码" onblur=testRetry()>
+        <p class="prompt" id="retryPrompt">与上次输入密码不符</p>
+        <input id="sub" type="submit" value="注     册"><br>
+    </form>
+</div>
+</body>
+</html>
