@@ -1,0 +1,42 @@
+#left-guide ul>li:nth-of-type(2){
+    background-color: rgb(58, 138, 213);
+}
+#mainWindow{
+    z-index: -1;
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    left: 239px;
+    height: 780px;
+    width: 898px;
+    background-color: blue;
+}
+#status{
+    display: inline-block;
+    background-color: white;
+}
+.seatStatus{
+    background-color: yellow;
+    display: inline-block;
+    height: 94px;
+    width: 210px;
+    margin-right: 14px;
+}
+.seatStatus:last-child{
+    margin-right: 0;
+}
+#seats{
+    display: inline-block;
+    width: 100%;
+    height: 674px;
+    background-color: pink;
+}
+#edit{
+    position: absolute;
+    display: inline-block;
+    height: 780px;
+    width: 328px;
+    top: 80px;
+    left: 1147px;
+    background-color: red;
+}
