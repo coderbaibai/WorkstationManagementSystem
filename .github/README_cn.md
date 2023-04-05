@@ -8,7 +8,7 @@
         测试中
     </p>
 
-[English](../README.md) | 简体中文
+[English](../../..) | 简体中文
 </div>
 <details open>
 <summary>依赖</summary>
