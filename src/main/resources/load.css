@@ -33,7 +33,7 @@ form{
 }
 input.text{
     width: 63%;
-    height: 12%;
+    height: 35px;
     padding-left: 12%;
     border: 1px solid #ccc;
 }

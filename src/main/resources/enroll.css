@@ -33,7 +33,7 @@ div{
 }
 input.text{
     width: 63%;
-    height: 12%;
+    height: 35px;
     padding-left: 12%;
     border: 1px solid #ccc;
 }
@@ -60,7 +60,7 @@ input.text:focus{
     background-position: left center;
 }
 #sub{
-    margin-top: 10px !important;
+    margin-top: 0 !important;
     font-size: large;
     background-color: dodgerblue;
     border: none;

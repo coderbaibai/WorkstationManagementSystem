@@ -28,7 +28,6 @@ public class LoginServlet extends HttpServlet {
 
         String usr = request.getParameter("username");
         String pwd = request.getParameter("password");
-        System.out.println(usr+" "+pwd);
         if(usr==null||pwd==null){
             response.sendRedirect("http://localhost:63342/WorkstationManagementSystem/src/main/resources/load.html");
             return;

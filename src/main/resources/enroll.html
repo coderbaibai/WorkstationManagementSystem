@@ -8,7 +8,7 @@
 </head>
 <body>
 <div id="enroll">
-    <form action="http://localhost:8081/loginServe/LoginServlet" method="post" onsubmit="return trySubmit()">
+    <form action="http://localhost:8081/LoginServe/EnrollServlet" method="post" onsubmit="return trySubmit()">
         <span class="inputTitle">用户名：</span><input class="text" id="user" type="text" name="username" autocomplete="off" placeholder="请输入用户名" onblur=testUser()>
         <p class="prompt" id="userPrompt">用户格式错误：1~10位由字母、数字组成</p>
         <span class="inputTitle">密码：</span><input class="text" id="pwd" type="password" name="password" autocomplete="off" placeholder="请输入密码" onblur=testPwd()>
