@@ -1,6 +1,6 @@
 # <div align="center">智能工位管理系统</div>
 <div align="center">
-    <img src="imgs/workStation.jpg" width="850">
+    <img src="imgs/workStation.png" width="850">
     <p>
         智能工位管理系统的设计与实现
     </p>

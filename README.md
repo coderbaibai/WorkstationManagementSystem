@@ -1,6 +1,6 @@
 # <div align="center">Workstation Management System</div>
 <div align="center">
-    <img src=".github/imgs/workStation.jpg" width="850">
+    <img src=".github/imgs/workStation.png" width="850">
     <p>
         Design and Implementation of an Intelligent Workstation Management System.
     </p>
