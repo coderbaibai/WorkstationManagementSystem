@@ -1,18 +1,22 @@
-# <div align="center">Workstation Management System</div>
+# 
+
+
+正在测试阶段
+# <div align="center">智能工位管理系统</div>
 <div align="center">
-    <img src=".github/imgs/workStation.jpg" width="850">
+    <img src="imgs/workStation.jpg" width="850">
     <p>
-        Design and Implementation of an Intelligent Workstation Management System.
+        智能工位管理系统的设计与实现
     </p>
     <p>
         testing
     </p>
 
-English | [简体中文](.github/README_cn.md)
+[English](../README.md) | 简体中文
 </div>
-
+To test the project, you are supposed to build a mysql database in your PC.
 <details open>
-<summary>Dependencies</summary>
+<summary>依赖</summary>
 
 <!-- names of dependencies and websites if had -->
 - [JDK: 1.8+](https://www.oracle.com/java/technologies/downloads)
@@ -21,33 +25,33 @@ English | [简体中文](.github/README_cn.md)
 </details>
 
 <details open>
-<summary>Build</summary>
-To test the project, you are supposed to execute the command on your shell.
+<summary>构建</summary>
+在命令行输入以下指令来初始化数据库，以便自行测试
 
-Login your own mysql DBMS.
+登录mysql
 ```
 mysql -uroot -p
 ```
-Then input your password.
+然后输入密码
 
-create a user named workstationManager and set password with 1234.Then exit.
+建立一个名为workstationManager的用户，密码必须设置成1234.
 ```
 CREATE USER 'workstationManager'@'localhost' IDENTIFIED BY '1234';
 ```
-create a new database.
+建立一个新的数据数据库
 ```
 create database workstationManagement;
 ```
-grant privileges to user.
+赋予用户权限
 ```
 grant all privileges on workstationManagement.* to workstationManager;
 ```
-reload
+重新登录mysql
 ```
 exit;
 mysql -uworkstationManager -p1234
 ```
-create a new table.
+建立一张新的表
 ```
 use workstationManagement;
 CREATE TABLE Account(
