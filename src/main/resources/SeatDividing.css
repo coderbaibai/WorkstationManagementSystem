@@ -62,8 +62,9 @@
     position: absolute;
     top: 19px;
     left: 79px;
-    font-family: PingFang HK;
+    font-family: microsoft yahei;
     font-size: 16px;
+    /*font-weight: 700;*/
     color: rgb(152, 152, 152);
     padding-left: 24px
 }
@@ -71,7 +72,8 @@
     position: absolute;
     top: 36px;
     left: 74px;
-    font-family: Helvetica Neue;
+    font-family: microsoft yahei;
+    font-weight: 500;
     font-size: 36px;
     color: rgb(102, 102, 102);
     padding-left: 24px

@@ -10,17 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca77e7c8-cbf1-4a17-abcf-a0abc468e2b2" name="变更" comment="debug">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/service/EnrollVerify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/service/impl/EnrollVerifyNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/utils/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wms/utils/impl/EncryptionMd5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/service/impl/LoginVerifyNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wms/service/impl/LoginVerifyNormal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/EnrollServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/EnrollServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wms/web/impl/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/enroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/enroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/enroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/enroll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/load.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/load.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/SeatDividing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SeatDividing.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/druid/SeatManagement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/druid/SeatManagement.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +236,10 @@
       <option name="presentableId" value="Default" />
       <updated>1680665731265</updated>
       <workItem from="1680665732429" duration="15862000" />
-      <workItem from="1680698720493" duration="6042000" />
+      <workItem from="1680698720493" duration="7254000" />
+      <workItem from="1680707867861" duration="27000" />
+      <workItem from="1680764122734" duration="202000" />
+      <workItem from="1680832833077" duration="1346000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1680688890367</created>
@@ -265,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680699692249</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="debug">
+      <created>1680706068837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680706068837</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
